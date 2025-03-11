@@ -28,9 +28,9 @@ WhatsApp Chat Analyzer is a FastAPI-based tool that allows users to upload and a
 - ❓ **Questions asked per user**
 
 ## 🎯 How It Works
-1. The user uploads a **WhatsApp chat export (TXT file)**.
+1. **Paste your WhatsApp chat export (TXT file) into `chat.txt` in the backend folder.**
 2. The backend processes the chat, extracts key insights, and performs sentiment analysis.
-3. Results are returned via API responses for further use.
+3. Run the chat analyzer script to get detailed insights.
 
 ## 🏗 Tech Stack
 - **Backend:** FastAPI, Uvicorn, Natural Language Toolkit (NLTK), Pandas
@@ -99,3 +99,4 @@ This project is licensed under the MIT License.
 
 ---
 ✨ Happy Chat Analyzing! ✨
+
