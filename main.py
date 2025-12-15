@@ -16,6 +16,10 @@ APIkey=
 api key=
        api key
        API
+api
+api key
+APIKEY
+API
 APIKEY
 @app.post("/upload/")
 async def upload_file(file: UploadFile = File(...)):
@@ -40,5 +44,6 @@ async def upload_file(file: UploadFile = File(...)):
 
 if __name__ == "__main__":
     uvicorn.run(app, host="127.0.0.1", port=8000, reload=True)
+
 
 
